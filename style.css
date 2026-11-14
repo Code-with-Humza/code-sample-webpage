@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: linear-gradient(110deg, #F7E2E9 0%, #F0E8F8 50%, #E7EEFA 100%);
+    font-family: 'Poppins', sans-serif;
+}
+.nav-logo{
+    height: 70px;
+    width: 140px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 28px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.navbar{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 65px;
+    margin-top: 30px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    position: sticky;
+}
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.nav-items ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.nav-items ul li{
+    font-weight: 500;
+}
+.contact-button{
+    margin-right: 50px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    background-color: #E9EBFF;
+    font-weight: 600;
+    font-size: 14px;
+}
+.hero-section{
+    width: 90%;
+    margin-left: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.leaf-image{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 10px;
+}
+.hexagon-badge {
+    width: 75px;
+    height: 85px;
+    position: relative;
+}
+
+.hexagon-badge svg {
+    width: 100%;
+    height: 100%;
+}
+
+.hexagon-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    color: #303034;
+}
+
+.hexagon-content h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 4px;
+}
+
+.hexagon-content p {
+    font-size: 9px;
+    line-height: 1.3;
+    margin: 0;
+}
+.first-line{
+    display: flex;
+    margin-top: 85px;
+}
+.pro-text{
+    font-size: 88px;
+    color: #303034;
+    font-weight: 700;
+    margin-right: 30px;
+    line-height: 100px;
+}
+.hexagon-badge{
+    margin-left: 90px;
+    margin-top: 5px;
+}
+.pro-heading-2{
+    line-height: 100px;
+}
+.hero-para p{
+    width: 410px;
+    margin-top: 40px;
+    color: #343238;
+    line-height: 1.6;
+}
+.tree-image{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+.hero-bubbles {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: -35px;
+}
+
+/* Black explore circle */
+.explore-bubble {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    right: 0;
+    bottom: 0;
+
+    background: #080808;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.explore-bubble:hover {
+    transform: scale(1.08);
+}
+
+/* Small transparent bubble */
+.glass-bubble {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -13px;
+    left: -16px;
+
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.85);
+
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 2;
+}
+
+/* Inner soft grey circle */
+.bubble-center {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    background: radial-gradient(
+        circle at 35% 35%,
+        #ffffff,
+        #d9dcdd 55%,
+        #aeb3b5
+    );
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+.flower-tree{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.trust-row{
+    width: 90%;
+    margin-top: 60px;
+}
+.flower-and-para{
+    display: flex;
+    margin-left: 60px;
+}
+.flower-para{
+    margin-left: 20px;
+    width: 300px;
+    color: #171717;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.star-img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 0.7px;
+    margin-right: 4px;
+   
+}
+.star-image{
+    display: flex;
+    margin-left: 65px;
+    margin-top: 31px;
+}
+.rate-count{
+    font-weight: bold;
+    font-weight: 560;
+}
+.bottom-left-side{
+    display: flex;
+    flex-direction: column;
+}
+.review-rating{
+    margin-left: 69px;
+    color: #303034;
+    font-weight: 400;
+}
+.star-bottom{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+.bottom-left-right-side{
+    display: flex;
+    margin-bottom: 5px;
+}
+.white-star{
+    height: 13px;
+    width: 13px;
+    object-fit: cover;
+    object-position: center;
+}
+.star-div{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00B67A;
+}
+.stars-container{
+    display: flex;
+    gap: 5px;
+}
+.bottom-div{
+    display: flex;
+}
+.bottom-container{
+    margin-left: 120px;
+    margin-top: 23px;
+}
+.blr-text{
+    color: #000;
+    font-weight: 600;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.trust-row{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.middle-dotted-border{
+    height: 85px;
+    border: 1px dotted #777777;
+    width: 0;
+    margin-top: 15px;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.social-icons a{
+    color: #080808;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.social-icons a:hover{
+    color: #00B67A;
+    transform: translateY(-3px);
+}
+.first-text-line{
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+}
+.count{
+    color: #303034;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
